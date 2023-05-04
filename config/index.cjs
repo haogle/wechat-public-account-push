@@ -5,6 +5,10 @@
  * 如若想使用更多功能，请查考文档中的 【3. config参数说明】 
  * 自行添加属性，以支持更多个性化功能
  */
+
+
+
+  
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
@@ -12,6 +16,20 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
+  
+  /**
+   * 基本配置
+   */
+  
+  // 使用的推送通道：['push-deer', 'wechat-test', 'server-chan', 'push-plus']
+  // 默认使用 【微信测试号】
+  // 使用【pushDeer】请填写 push-deer
+  // 使用【微信测试号】请填写 wechat-test
+  // 使用【方糖服务号】请填写 server-chan
+  // 使用【pushplus推送加服务号】请填写 push-plus
+  USE_PASSAGE: 'push-deer',
+  
+  id: 'PDU22408TAMAJgGfyNRDJYlOlKMugU0omZFI8rAMR',
 
   PROVINCE: '广东',
   CITY: '惠州',
